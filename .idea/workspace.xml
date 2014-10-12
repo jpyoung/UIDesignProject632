@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d358ac1-4472-4609-bbd7-d416e96ce9ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BaseStyle.css" afterPath="$PROJECT_DIR$/BaseStyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index3.html" afterPath="$PROJECT_DIR$/index3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form.html" afterPath="$PROJECT_DIR$/form.html" />
     </list>
     <ignored path="UIDesignProject632.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,11 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseStyle.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BaseStyle.css">
+      <file leaf-file-name="form.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6319733" vertical-offset="42561" max-vertical-offset="80123">
-              <caret line="2280" column="10" selection-start-line="2280" selection-start-column="10" selection-end-line="2280" selection-end-column="10" />
+            <state vertical-scroll-proportion="-25.0" vertical-offset="0" max-vertical-offset="750">
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SignIn.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SignIn.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.24214104" vertical-offset="0" max-vertical-offset="1177">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -61,6 +70,8 @@
       <list>
         <option value="$PROJECT_DIR$/index3.html" />
         <option value="$PROJECT_DIR$/BaseStyle.css" />
+        <option value="$PROJECT_DIR$/form.html" />
+        <option value="$PROJECT_DIR$/SignIn.html" />
       </list>
     </option>
   </component>
@@ -121,8 +132,50 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -177,6 +230,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/BaseStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56869274" vertical-offset="42561" max-vertical-offset="80123">
+          <caret line="2276" column="0" selection-start-line="2276" selection-start-column="0" selection-end-line="2277" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-25.625" vertical-offset="0" max-vertical-offset="2685">
@@ -185,10 +246,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BaseStyle.css">
+    <entry file="file://$PROJECT_DIR$/form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6319733" vertical-offset="42561" max-vertical-offset="80123">
-          <caret line="2280" column="10" selection-start-line="2280" selection-start-column="10" selection-end-line="2280" selection-end-column="10" />
+        <state vertical-scroll-proportion="-25.0" vertical-offset="0" max-vertical-offset="750">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SignIn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24214104" vertical-offset="0" max-vertical-offset="1177">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding />
         </state>
       </provider>
