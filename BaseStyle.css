@@ -4210,3 +4210,36 @@ input[type='email'], input[type='number'], input[type='password'], input[type='s
     -webkit-transition: none;
     transition: none;
 }
+
+
+
+
+
+
+
+
+
+
+/*Jack Young Added*/
+
+.row--b {
+    background: #29896b;
+}
+
+#fixVideoBox {
+    width: 531px;
+    background: #29896b;
+    box-shadow:none;
+}
+
+#keyNote {
+    color: #818a8f;
+}
+
+#bottomFooter {
+    height: 200px;
+}
+
+#bottomFooter .footer-about h1 {
+    color: #b98f22;
+}
