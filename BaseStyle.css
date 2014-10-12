@@ -220,29 +220,21 @@ td, th {
     font-family: "OpenSans";
     font-style: normal;
     font-weight: normal;
-    src: url(//d1tijy5l7mg5kk.cloudfront.net/assets/OpenSansRegular-766e03b5a6e1b162eff3e69d53f09e63.eot);
-    src: url(//d1tijy5l7mg5kk.cloudfront.net/assets/OpenSansRegular.eot?#iefix) format("embedded-opentype"), url(//d1tijy5l7mg5kk.cloudfront.net/assets/OpenSansRegular-2e1f7be1f5d0b328f971e9f255470cdf.woff) format("woff"), url(//d1tijy5l7mg5kk.cloudfront.net/assets/OpenSansRegular-b1ba7c998fccdf638a1734445677f1be.ttf) format("truetype"), url(//d1tijy5l7mg5kk.cloudfront.net/assets/OpenSansRegular.svg#OpenSans) format("svg");
 }
 @font-face {
     font-family: "OpenSans";
     font-style: normal;
     font-weight: bold;
-    src: url(//d1tijy5l7mg5kk.cloudfront.net/assets/OpenSansBold-19228ae126cc5ecf86eca6811996168d.eot);
-    src: url(//d1tijy5l7mg5kk.cloudfront.net/assets/OpenSansBold.eot?#iefix) format("embedded-opentype"), url(//d1tijy5l7mg5kk.cloudfront.net/assets/OpenSansBold-f73d5e31e1dcd62edb840d3a1e962a33.woff) format("woff"), url(//d1tijy5l7mg5kk.cloudfront.net/assets/OpenSansBold-81ba3bbee4c9a84c67f395f3a92796c9.ttf) format("truetype"), url(//d1tijy5l7mg5kk.cloudfront.net/assets/OpenSansBold.svg#OpenSans) format("svg");
 }
 @font-face {
     font-family: "OpenSans";
     font-style: italic;
     font-weight: normal;
-    src: url(//d1tijy5l7mg5kk.cloudfront.net/assets/OpenSansItalic-9788dc8dab375d9211882c34cac6f88c.eot);
-    src: url(//d1tijy5l7mg5kk.cloudfront.net/assets/OpenSansItalic.eot?#iefix) format("embedded-opentype"), url(//d1tijy5l7mg5kk.cloudfront.net/assets/OpenSansItalic-a36d8021e98580d07fe23a81f1622444.woff) format("woff"), url(//d1tijy5l7mg5kk.cloudfront.net/assets/OpenSansItalic-73fbdcc71bb8a7009f90ba09135890f9.ttf) format("truetype"), url(//d1tijy5l7mg5kk.cloudfront.net/assets/OpenSansItalic.svg#OpenSans) format("svg");
 }
 @font-face {
     font-family: "OpenSansLight";
     font-style: normal;
     font-weight: normal;
-    src: url(//d1tijy5l7mg5kk.cloudfront.net/assets/OpenSansLight-ad6731e26e9bf3e4f9c62fc5438b4f93.eot);
-    src: url(//d1tijy5l7mg5kk.cloudfront.net/assets/OpenSansLight.eot?#iefix) format("embedded-opentype"), url(//d1tijy5l7mg5kk.cloudfront.net/assets/OpenSansLight-681515dce920e96049300613f4edd056.woff) format("woff"), url(//d1tijy5l7mg5kk.cloudfront.net/assets/OpenSansLight-320d171cfc937b9015c890f41d2d50db.ttf) format("truetype"), url(//d1tijy5l7mg5kk.cloudfront.net/assets/OpenSansLight.svg#OpenSansLight) format("svg");
 }
 html {
     background: #f7f7f7;
@@ -415,7 +407,6 @@ input[type='email'], input[type='number'], input[type='password'], input[type='s
  }
 .btn {
     background: #278998;
-    border-radius: 100px;
     border: 0;
     color: #fff;
     cursor: pointer;
@@ -1191,8 +1182,6 @@ input[type='email'], input[type='number'], input[type='password'], input[type='s
         width: 91.666%}
 }@font-face {
     font-family: "icons";
-    src: url(//d1tijy5l7mg5kk.cloudfront.net/assets/icons-63c501b1872e881b3a692464c04937ae.eot);
-    src: url(//d1tijy5l7mg5kk.cloudfront.net/assets/icons.eot?#iefix) format("embedded-opentype"), url(//d1tijy5l7mg5kk.cloudfront.net/assets/icons-f1cd51502530fa50697cbce9eedf56f2.woff) format("woff"), url(//d1tijy5l7mg5kk.cloudfront.net/assets/icons-543eb4f7b747a2576f4299ca66364f51.ttf) format("truetype"), url(//d1tijy5l7mg5kk.cloudfront.net/assets/icons.svg#icons) format("svg");
     font-weight: normal;
     font-style: normal;
 }
@@ -2223,7 +2212,6 @@ input[type='email'], input[type='number'], input[type='password'], input[type='s
     color: #17525b;
 }
 .hero--elements::before {
-    background-image: url(//d1tijy5l7mg5kk.cloudfront.net/assets/bg-elements-00291085e3ced51ebd59cc32769be50e.svg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: 90%;
@@ -2266,36 +2254,30 @@ input[type='email'], input[type='number'], input[type='password'], input[type='s
     }
 }@media screen and (min-width: 64em) {
     .hero--ruby .hero-cell {
-        background-image: url(//d1tijy5l7mg5kk.cloudfront.net/assets/paths/bg-ruby-complex-98e9e293a60926d3cf375a81fe72119e.svg);
         background-position: right bottom;
         background-repeat: no-repeat;
     }
 }@media screen and (min-width: 64em) {
     .hero--javascript .hero-cell {
-        background-image: url(//d1tijy5l7mg5kk.cloudfront.net/assets/paths/bg-javascript-complex-8a27ece4775d96051f1bf5c0805cdd2b.svg);
         background-position: right bottom;
         background-repeat: no-repeat;
     }
 }@media screen and (min-width: 64em) {
     .hero--html-css .hero-cell {
-        background-image: url(//d1tijy5l7mg5kk.cloudfront.net/assets/paths/bg-html-css-complex-6fb9bd89e9f9f17c55265e400b084e57.svg);
         background-position: right bottom;
         background-repeat: no-repeat;
     }
 }@media screen and (min-width: 64em) {
     .hero--ios .hero-cell {
-        background-image: url(//d1tijy5l7mg5kk.cloudfront.net/assets/paths/bg-ios-complex-3558b76ca81d3540de6f0e69dceccb64.svg);
         background-position: right bottom;
         background-repeat: no-repeat;
     }
 }@media screen and (min-width: 64em) {
     .hero--electives .hero-cell {
-        background-image: url(//d1tijy5l7mg5kk.cloudfront.net/assets/paths/bg-electives-complex-7d2597a9bd14b78be10e2eccd90d63d9.svg);
         background-position: right bottom;
         background-repeat: no-repeat;
     }
 }.hero--pattern {
-     background-image: url(//d1tijy5l7mg5kk.cloudfront.net/assets/bg-pattern-591f1888203b509820b042f9d55c0894.svg);
      background-position: center;
      background-repeat: repeat;
  }
