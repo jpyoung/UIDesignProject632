@@ -2,7 +2,7 @@
 <html>
 <head>
 
-    <title>GSB - Lecture Listing</title>
+    <title>GSB - Admin Delete Speak Page</title>
 
     <link href="BaseStyle.css" media="screen" rel="stylesheet" type="text/css">
 
@@ -30,7 +30,7 @@
                             <b class="srt">Menu</b>
                         </div>
                     </a><ol class="nav-list list fr">
-                    <li class="nav-item list-item"><a href="SignIn.html" class="nav-item-link list-item-link">Sign in</a></li>
+                    <li class="nav-item list-item"><a href="SignIn.html" class="nav-item-link list-item-link">Sign out</a></li>
                 </ol>
                 </nav>
 
@@ -44,24 +44,19 @@
 <div class="row row--c">
     <div class="cell">
         <nav class="nav nav--sub" id="account-navigation">
-            <select class="nav-select">
-                <option selected="selected" value="/account">Dashboard</option>
-                <option value="/account/subscription">Subscription</option>
-                <option value="/account/transactions">History</option>
-                <option value="/account/prizes">Rewards</option>
-            </select>
+
             <ul class="nav-list list dn db--m">
+                <li class="-active list-item nav-item">
+                    <a href="/account" class="nav-item-link list-item-link">Edit Home Page</a>
+                </li>
+                <li class="nav-item list-item">
+                    <a href="/account/subscription" class="nav-item-link list-item-link">Add Speakers</a>
+                </li>
+                <li class="nav-item list-item">
+                    <a href="/account/transactions" class="nav-item-link list-item-link">Delete Speakers</a>
+                </li>
                 <li class="is-active list-item nav-item">
-                    <a href="/account" class="nav-item-link list-item-link">Dashboard</a>
-                </li>
-                <li class="nav-item list-item">
-                    <a href="/account/subscription" class="nav-item-link list-item-link">Subscription</a>
-                </li>
-                <li class="nav-item list-item">
-                    <a href="/account/transactions" class="nav-item-link list-item-link">History</a>
-                </li>
-                <li class="nav-item list-item">
-                    <a href="/account/prizes" class="nav-item-link list-item-link">Rewards</a>
+                    <a href="/account/prizes" class="nav-item-link list-item-link">Delete Lectures</a>
                 </li>
             </ul>
         </nav>
@@ -74,7 +69,7 @@
     <div class='cell well'>
         <div class='cell cell--s well'>
             <h1 class='h2 mbm mtm tac thb tfl twn'>
-                Wander through <strong class="tfb">All Lectures</strong>, and select one that sparks your interest.  If you like what you see, you may request a speaking engagement.
+                Simply press the delete button to delete a speakers talks.
             </h1>
         </div>
 
@@ -82,6 +77,9 @@
         <div class='g mbl' id='course-list'>
             <div class='g-b g-b--l--1of2'>
                 <article class='card card--a course' id='course_115' itemscope='' itemtype='http://schema.org/Product'>
+                    <div style="float: right">
+                        <a href="/paths/ruby" class="btn btn--ruby admin-delete-btn">Delete</a>
+                    </div>
                     <div class='course-badge badge'>
                         <a href="/courses/front-end-foundations"><img alt="Front-end Foundations Completion Badge" class="badge-img" height="110" itemprop="image" src="images/jeff_offutt.gif" width="110" />
                         </a></div>
@@ -105,6 +103,9 @@
             </div>
             <div class='g-b g-b--l--1of2'>
                 <article class='card card--a course' id='course_114' itemscope='' itemtype='http://schema.org/Product'>
+                    <div style="float: right">
+                        <a href="/paths/ruby" class="btn btn--ruby admin-delete-btn">Delete</a>
+                    </div>
                     <div class='course-badge badge'>
                         <a href="/courses/mastering-github"><img alt="Mastering GitHub Completion Badge" class="badge-img" height="110" itemprop="image" src="images/Karen_Bune.gif" width="110" />
                         </a></div>
@@ -128,6 +129,9 @@
             </div>
             <div class='g-b g-b--l--1of2'>
                 <article class='card card--a course' id='course_113' itemscope='' itemtype='http://schema.org/Product'>
+                    <div style="float: right">
+                        <a href="/paths/ruby" class="btn btn--ruby admin-delete-btn">Delete</a>
+                    </div>
                     <div class='course-badge badge'>
                         <a href="/courses/javascript-best-practices"><img alt="JavaScript Best Practices Completion Badge" class="badge-img" height="110" itemprop="image" src="images/Maurice_McTigue.gif" width="110" />
                         </a></div>
@@ -153,6 +157,9 @@
 
             <div class='g-b g-b--l--1of2'>
                 <article class='card card--a course' id='course_113' itemscope='' itemtype='http://schema.org/Product'>
+                    <div style="float: right">
+                        <a href="/paths/ruby" class="btn btn--ruby admin-delete-btn">Delete</a>
+                    </div>
                     <div class='course-badge badge'>
                         <a href="/courses/javascript-best-practices"><img alt="JavaScript Best Practices Completion Badge" class="badge-img" height="110" itemprop="image" src="images/Don_Boileau.gif" width="110" />
                         </a></div>

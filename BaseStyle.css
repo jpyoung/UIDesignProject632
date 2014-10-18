@@ -4244,3 +4244,6 @@ input[type='email'], input[type='number'], input[type='password'], input[type='s
     color: #b98f22;
 }
 
+.admin-delete-btn {
+    padding-left: 10px; padding-right: 10px; border-radius: 10%;
+}
