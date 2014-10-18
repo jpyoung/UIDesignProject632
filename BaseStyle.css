@@ -527,7 +527,7 @@ input[type='email'], input[type='number'], input[type='password'], input[type='s
     border-radius: 3px;
     padding: 1.25em;
     position: relative;
-    padding: 0.625em;
+    /*padding: 0.625em; JPY removed*/
     position: relative;
 }
 @media screen and (min-width: 48em) {
@@ -4243,3 +4243,4 @@ input[type='email'], input[type='number'], input[type='password'], input[type='s
 #bottomFooter .footer-about h1 {
     color: #b98f22;
 }
+
